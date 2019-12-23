@@ -71,7 +71,7 @@ var legend = L.control({ position: "bottomleft" });
 
 legend.onAdd = function() {
   var div = L.DomUtil.create("div", "legend");
-  div.innerHTML += "<h2>Earthquakes Past 7 Days:<br>by Richter Scale</h2>";
+  div.innerHTML += "<h3>Earthquakes Past 7 Days:<br>by Richter Scale</h3>";
   div.innerHTML += '<i style="background: #a50f15"></i><span> > 3</span><br>';
   div.innerHTML += '<i style="background: #de2d26"></i><span> > 2.5</span><br>';
   div.innerHTML += '<i style="background: #fb6a4a"></i><span> > 2</span><br>';
